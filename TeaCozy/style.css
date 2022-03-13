@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica";
+  font-size: 22px;
+  color: seashell;
+}
+
+body,
+.hero-content {
+  background-color: black;
+  opacity: 0.9;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+}
+#logo {
+  margin-left: 10px;
+}
+
+#logo img {
+  height: 50px;
+}
+
+.links {
+  display: flex;
+}
+.links li {
+  display: flex;
+
+  margin-left: 30px;
+  margin-right: 20px;
+  text-decoration: underline;
+}
+
+.links li:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.hero {
+  margin-top: 70px;
+  background: url("./images/img-mission-background.webp") no-repeat center;
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-bottom: 60px;
+}
+
+.hero-content {
+  text-align: center;
+  width: 1200px;
+  height: 100px;
+  line-height: 50px;
+  padding-top: 10px;
+}
+
+.hero-content h2 {
+  font-size: xx-large;
+}
+
+main h2,
+h4 {
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+main h2 {
+  font-size: xx-large;
+}
+
+.tea-images .row-1,
+.row-2 {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  justify-content: center;
+}
+.tea-images img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea-images .row-2 {
+  margin-top: 50px;
+}
+
+.img-block p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.locations {
+  position: relative;
+  text-align: center;
+  background: url("./images/img-locations-background.webp") no-repeat center;
+  height: 500px;
+  width: 1200px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+.locations h2 {
+  padding-top: 60px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 15px;
+  column-gap: 40px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.footer-1 {
+  margin-top: 15px;
+  height: 200px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.footer-1 h2 {
+  font-size: xx-large;
+}
+
+.copyright {
+  margin-left: 20px;
+}
