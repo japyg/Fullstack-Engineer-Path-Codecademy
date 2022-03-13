@@ -1,0 +1,41 @@
+/* body {
+  margin: 50px;
+  padding: 0;
+} */
+
+header {
+  background-image: url("./images/pattern.webp");
+  font-family: Helvetica;
+  font-size: 50px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  /* display: inline-block; */
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+.title_brush {
+  background-color: mediumspringgreen;
+}
+.title_frame {
+  background-color: lightcoral;
+}
+.title_paint {
+  background-color: skyblue;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+span {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
