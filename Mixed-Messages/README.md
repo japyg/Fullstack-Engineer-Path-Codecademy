@@ -2,7 +2,7 @@
 
 A korean drama series generator to help you watch your next favorite series in Netflix.
 
-** Worry no more! **
+**Worry no more!**
 
 ### Features
 
